@@ -6,15 +6,21 @@
 }
 
 :root{
+    --primary-color:#8F0101;
+    --secondary-color:#B81515;
+
     --background-primary-color: #ffffff;
     --background-secondary-color: #f5f5f5;
     --background-tertiary-color: #0000;
 
-    --button-primary-color:#8F0101;
-    --button-secondary-color:#B81515;
-
     --text-primary-color:#222222;
     --button-secondary-color:#ffffff;
+
+    /* fontes */
+    --title-weight:700;
+    --text-weight:400;
+    --menu-text-weight:500;
+   
 }
 
 
