@@ -29,10 +29,36 @@ nav {
 .lista-links ul {
   list-style: none;
 }
-.lista-links li{
+.lista-links li {
   margin: 16px 0;
 }
 .lista-links li a {
   color: var(--text-secondary-color);
   text-decoration: none;
+  font-weight: var(--menu-text-weigth);
+}
+@media screen and (min-width: 760px) {
+  header {
+    align-items: center;
+  }
+  .navegaçao-menu {
+    margin: 0;
+    width: 467px;
+  }
+  .navegaçao-menu label {
+    display: none;
+  }
+  .navegaçao-menu nav {
+    display: block;
+  }
+  .navegaçao-menu ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+  }
+  .navegaçao-menu li {
+    font-size: 24px;
+  }
 }
