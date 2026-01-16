@@ -5,6 +5,7 @@ header {
   align-items: flex-start;
   padding: 38px 48px;
   background-color: var(--background-tertiary-color);
+  position: relative;
 }
 .logo {
   display: inline-block;
@@ -14,9 +15,21 @@ header {
 .navegaçao-menu {
   margin-top: 16px;
 }
-input[type="checkbox"]:checked ~ nav{
+input[type="checkbox"]:checked ~ nav {
   display: block;
+  width: 100%;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: var(--background-tertiary-color);
 }
 nav {
   display: none;
+}
+.lista-links ul {
+  list-style: none;
+}
+.lista-links li a {
+  color: var(--text-secondary-color);
+  text-decoration: none;
 }
