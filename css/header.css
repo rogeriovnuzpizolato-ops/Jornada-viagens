@@ -29,6 +29,9 @@ nav {
 .lista-links ul {
   list-style: none;
 }
+.lista-links li{
+  margin: 16px 0;
+}
 .lista-links li a {
   color: var(--text-secondary-color);
   text-decoration: none;
