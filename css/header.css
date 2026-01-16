@@ -11,9 +11,12 @@ header {
   width: 68px;
   height: 64px;
 }
-.navegaçao-menu{
+.navegaçao-menu {
   margin-top: 16px;
 }
-nav{
+input[type="checkbox"]:checked ~ nav{
+  display: block;
+}
+nav {
   display: none;
 }
