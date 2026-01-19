@@ -1,6 +1,7 @@
 .card {
   background-color: black;
   color: var(--text-secondary-color);
+  padding: 24px 16px;
   width: 312px;
   height: 288px;
   margin: 0 auto;
@@ -9,24 +10,36 @@
   border-radius: 16px;
 }
 .card header {
+  padding: 0;
   display: block;
-  padding: 24px 16px;
   background-color: transparent;
   position: static;
 }
 .card header p {
+  display: block;
   font-size: 20px;
   font-weight: var(--text-weight);
+  margin-bottom: 24px;
 }
-.card h3 {
-  display: inline-block;
+.card header h3 {
   font-size: 40px;
-  margin: 0;
-  margin-top: 8px;
   font-weight: var(--title-weight);
+  margin: 8px 0 0;
 }
-.card span {
+.card header span {
   display: inline-block;
   font-size: 32px;
-  margin-top: 24px;
+  margin: 24px;
+}
+@media screen and (min-width: 1024px) {
+  .card {
+    width: 588px;
+    height: 308px;
+  }
+  .card header h3 {
+  font-size: 48px;
+}
+.card header span {
+  font-size: 40px;
+}
 }
