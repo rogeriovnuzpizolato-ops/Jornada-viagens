@@ -65,3 +65,16 @@ body {
     font-size: 32px;
   }
 }
+.section-title h2 {
+  font-weight: var(--title-weight);
+  font-size: 28px;
+  margin: 0;
+  text-align: center;
+}
+.section-title hr {
+  margin: 16px auto 32px;
+  background-color: var(--secondary-color);
+  width: 180px;
+  height: 4px;
+  border: none;
+}
