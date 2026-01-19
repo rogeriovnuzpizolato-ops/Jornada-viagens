@@ -55,13 +55,13 @@ body {
   height: 4px;
   border: none;
 }
-@media screen and (min-width:768px){
-  .section-title h2{
+@media screen and (min-width: 768px) {
+  .section-title h2 {
     font-size: 32px;
   }
 }
-@media screen and (min-width:1024px){
-  .section-title h2{
+@media screen and (min-width: 1024px) {
+  .section-title h2 {
     font-size: 32px;
   }
 }
@@ -77,4 +77,16 @@ body {
   width: 180px;
   height: 4px;
   border: none;
+}
+.button {
+  display: inline-block;
+  line-height: 64px;
+  width: 280px;
+  height: 64px;
+  color: var(--text-secondary-color);
+  background-color: var(--secondary-color);
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: var(--title-weight);
+  border-radius: 10px;
 }
