@@ -90,3 +90,8 @@ body {
   font-weight: var(--title-weight);
   border-radius: 10px;
 }
+@media screen and (min-width:1024px){
+  .button:hover{
+    background-color: var(--primary-color);
+  }
+}
