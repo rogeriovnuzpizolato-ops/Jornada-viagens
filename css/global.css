@@ -38,6 +38,60 @@ button {
   padding: 0;
   box-sizing: border-box;
 }
-body{
-  font-family: "montserrat",sans-serif;
+body {
+  font-family: "montserrat", sans-serif;
+  color: var(--text-primary-color);
+}
+.section-title h2 {
+  font-weight: var(--title-weight);
+  font-size: 28px;
+  margin: 0;
+  text-align: center;
+}
+.section-title hr {
+  margin: 16px auto 32px;
+  background-color: var(--secondary-color);
+  width: 180px;
+  height: 4px;
+  border: none;
+}
+@media screen and (min-width: 768px) {
+  .section-title h2 {
+    font-size: 32px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .section-title h2 {
+    font-size: 32px;
+  }
+}
+.section-title h2 {
+  font-weight: var(--title-weight);
+  font-size: 28px;
+  margin: 0;
+  text-align: center;
+}
+.section-title hr {
+  margin: 16px auto 32px;
+  background-color: var(--secondary-color);
+  width: 180px;
+  height: 4px;
+  border: none;
+}
+.button {
+  display: inline-block;
+  line-height: 64px;
+  width: 280px;
+  height: 64px;
+  color: var(--text-secondary-color);
+  background-color: var(--secondary-color);
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: var(--title-weight);
+  border-radius: 10px;
+}
+@media screen and (min-width:1024px){
+  .button:hover{
+    background-color: var(--primary-color);
+  }
 }
