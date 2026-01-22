@@ -1,0 +1,25 @@
+.categorias{
+    padding-top: 80px;
+}
+.icone{
+    display: block;
+    width: 312px;
+    height: 220px;
+    padding: 24px;
+     margin: 0 auto;
+    text-align: center;
+    background-color: var(--background-secondary-color);
+    margin-top: 73px;
+}
+.icone img{
+    margin: 41px auto 24px;
+}
+.icone a{
+    display: block;
+}
+.icone p{
+    text-align: center;
+    margin: 24px 16px 41px;
+    font-size: 28px;
+    font-weight: var(--menu-text-weight);
+}
