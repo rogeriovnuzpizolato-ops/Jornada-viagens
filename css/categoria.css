@@ -1,25 +1,29 @@
 .categorias{
-    padding-top: 80px;
-}
-.icone{
+    color: var(--text-primary-color);
+    font-size: 32px;
     display: block;
     width: 312px;
-    height: 220px;
-    padding: 24px;
-     margin: 0 auto;
-    text-align: center;
+    height: 98px;
+    margin: 88px 24px 32px;
+}
+.container-categorias{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+.icone{
     background-color: var(--background-secondary-color);
-    margin-top: 73px;
+    width: 312px;
+    height: 220px;
+    display: block;
+    text-align: center;
 }
 .icone img{
-    margin: 41px auto 24px;
-}
-.icone a{
-    display: block;
+    margin-top: 41px;
 }
 .icone p{
-    text-align: center;
-    margin: 24px 16px 41px;
     font-size: 28px;
-    font-weight: var(--menu-text-weight);
+    margin-top: 24px;
+    color: var(--text-primary-color);
 }
