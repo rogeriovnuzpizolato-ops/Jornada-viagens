@@ -6,10 +6,10 @@
   height: 98px;
   margin: 88px 24px 32px;
 }
-.linha-unica{
+.linha-unica {
   padding-top: 20px;
 }
-.transfer{
+.transfer {
   padding-top: 45px;
 }
 .container-categorias {
@@ -47,15 +47,15 @@
   }
 }
 @media screen and (min-width: 1024px) {
-  .icone{
+  .icone {
     width: 350px;
   }
 }
-@media screen and (min-width:1440px){
-  .icone{
+@media screen and (min-width: 1440px) {
+  .icone {
     width: 312px;
   }
-  .container-categorias{
+  .container-categorias {
     flex-direction: row;
     gap: 24px;
   }
