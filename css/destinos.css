@@ -9,7 +9,7 @@
   color: var(--text-primary-color);
   display: block;
   font-size: 32px;
-  width: 312px;
+  width: 100%;
   height: 98px;
   text-align: center;
   margin: 0 auto;
@@ -23,7 +23,7 @@
 }
 .itens {
   width: 312px;
-  height: 754px;
+  
 }
 .itens h4 {
   margin: 24px 0;
@@ -41,7 +41,7 @@
   text-align: center;
 }
 .imagem-itens {
-  width: 312px;
+  width: 100%;
   height: 360px;
 }
 .Tokyo {
@@ -52,4 +52,16 @@
   background: url(../img/destinos-populares-osaka-bg.jpg) no-repeat center;
   background-size: cover;
 }
-
+@media screen and (min-width: 768px) {
+  .itens {
+    width: 648px;
+  }
+  .Tokyo {
+    background: url(../img/Tokyo-tablet-desktop.jpg) no-repeat center;
+    background-size: cover;
+  }
+  .Osaka {
+    background: url(../img/Osaka-tablet-desktop.jpg) no-repeat center;
+    background-size: cover;
+  }
+}
