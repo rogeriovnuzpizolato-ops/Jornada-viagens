@@ -1,7 +1,55 @@
-.itens-destinos .itens header{
+.itens-destinos .itens header {
   padding: 0;
   display: block;
   background-color: transparent;
   position: static;
   margin-bottom: 24px;
 }
+.destinos-populares {
+  color: var(--text-primary-color);
+  display: block;
+  font-size: 32px;
+  width: 312px;
+  height: 98px;
+  text-align: center;
+  margin: 0 auto;
+}
+.itens-destinos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  gap: 24px;
+}
+.itens {
+  width: 312px;
+  height: 754px;
+}
+.itens h4 {
+  margin: 24px 0;
+  font-size: 28px;
+  font-weight: var(--title-weight);
+}
+.itens p {
+  font-size: 20px;
+  margin-bottom: 24px;
+}
+.itens footer {
+  padding: 15px;
+}
+.itens a {
+  text-align: center;
+}
+.imagem-itens {
+  width: 312px;
+  height: 360px;
+}
+.Tokyo {
+  background: url(../img/destinos-populares-tokyo-bg.jpg) no-repeat center;
+  background-size: cover;
+}
+.Osaka {
+  background: url(../img/destinos-populares-osaka-bg.jpg) no-repeat center;
+  background-size: cover;
+}
+
