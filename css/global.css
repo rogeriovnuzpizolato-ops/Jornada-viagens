@@ -42,6 +42,18 @@ body {
   font-family: "montserrat", sans-serif;
   color: var(--text-primary-color);
 }
+section {
+  width: 312px;
+  margin: 0 auto 88px;
+}
+section.hero{
+  width: 100%;
+  margin: 0;
+}
+.section-title{
+  width: 270px;
+  margin: 0 auto 32px;
+}
 .section-title h2 {
   font-weight: var(--title-weight);
   font-size: 28px;
@@ -56,11 +68,18 @@ body {
   border: none;
 }
 @media screen and (min-width: 768px) {
-  .section-title h2 {
-    font-size: 32px;
+  section {
+    width: 648px;
+  }
+  .section-title {
+    width: 100%;
+    margin: 0 auto 32px;
   }
 }
 @media screen and (min-width: 1024px) {
+  section {
+    width: 900px;
+  }
   .section-title h2 {
     font-size: 32px;
   }
@@ -89,9 +108,15 @@ body {
   font-size: 20px;
   font-weight: var(--title-weight);
   border-radius: 10px;
+  text-align: center;
 }
-@media screen and (min-width:1024px){
-  .button:hover{
+@media screen and (min-width: 1024px) {
+  .button:hover {
     background-color: var(--primary-color);
+  }
+}
+@media screen and (min-width: 1440px) {
+  section {
+    width: 1200px;
   }
 }

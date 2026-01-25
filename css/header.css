@@ -1,4 +1,4 @@
-header {
+.main-header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -44,7 +44,7 @@ nav {
   font-weight: var(--menu-text-weigth);
 }
 @media screen and (min-width: 760px) {
-  header {
+  .main-header {
     align-items: center;
   }
   .navegaçao-menu {
@@ -69,13 +69,12 @@ nav {
   }
 }
 @media screen and (min-width: 1024px) {
-  header{
+  .main-header {
     padding: 38px 120px;
   }
-  .logo{
+  .logo {
     width: 260px;
     height: 64px;
-
   }
   .img-mobile {
     display: none;
@@ -88,8 +87,8 @@ nav {
     transition: 0.2s;
   }
 }
-@media screen and (min-width:1920px){
-  header{
+@media screen and (min-width: 1920px) {
+  .main-header {
     padding: 38px 165px;
   }
 }

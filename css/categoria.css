@@ -54,7 +54,7 @@
 }
 @media screen and (min-width: 1440px) {
   .icone {
-    width: 312px;
+    width: 280px;
   }
   .container-categorias {
     flex-direction: row;
