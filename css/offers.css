@@ -37,8 +37,6 @@
 }
 .card header p {
   display: block;
-  font-size: 20px;
-  font-weight: var(--text-weight);
   margin-bottom: 24px;
 }
 .card header h3 {

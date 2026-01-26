@@ -67,6 +67,15 @@ section.hero{
   height: 4px;
   border: none;
 }
+.content-title{
+  font-size: 28px;
+  font-weight: var(--title-weight);
+}
+.content-text{
+  font-size: 28px;
+  font-weight: var(--text-weight);
+  line-height: 32px;
+}
 @media screen and (min-width: 768px) {
   section {
     width: 648px;

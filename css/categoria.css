@@ -31,10 +31,9 @@
 .icone img {
   margin-top: 41px;
 }
-.icone p {
-  font-size: 28px;
+p {
+
   margin-top: 24px;
-  color: var(--text-primary-color);
 }
 @media screen and (min-width: 768px) {
   .categorias {
