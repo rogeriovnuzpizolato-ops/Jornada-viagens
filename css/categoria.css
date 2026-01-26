@@ -31,8 +31,8 @@
 .icone img {
   margin-top: 41px;
 }
-p {
-
+.icone p {
+  font-size: 28px;
   margin-top: 24px;
 }
 @media screen and (min-width: 768px) {
