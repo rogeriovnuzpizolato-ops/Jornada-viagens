@@ -24,3 +24,23 @@
   background: url(../img/pagamentos-foto-3.png) no-repeat center;
   background-size: cover;
 }
+@media screen and (min-width:1024px){
+  .pagamentos{
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas: "titulo titulo"
+    ".conteudo-texto "
+    "texto imagem";
+    gap: 24px;
+  }
+  .section-title{
+    grid-area: titulo;
+  }
+  .conteudo-texto{
+    grid-area: texto;
+  }
+  .conteudo-imagem{
+    grid-area: imagem;
+  }
+}
