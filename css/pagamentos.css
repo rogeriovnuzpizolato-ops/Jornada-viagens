@@ -1,0 +1,46 @@
+.pagamentos {
+  margin-top: 88px;
+}
+.pagamentos-container {
+  display: flex;
+  justify-content: space-between;
+}
+.conteudo-imagem {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  margin-top: 24px;
+  height: 460px;
+  width: 100%;
+}
+.large {
+  grid-column: span 2;
+}
+.malas {
+  background: url(../img/pagamentos-foto-1.png) no-repeat center;
+  background-size: cover;
+}
+.passaporte {
+  background: url(../img/pagamentos-foto-2.png) no-repeat center;
+  background-size: cover;
+}
+.pessoas {
+  background: url(../img/pagamentos-foto-3.png) no-repeat bottom;
+  background-size: cover;
+}
+@media screen and (min-width: 1024px) {
+  .pagamentos.pagamentos-container {
+    justify-content: space-between;
+  }
+  .conteudo-texto {
+    grid-area: texto;
+  }
+  .conteudo-imagem {
+    grid-area: imagem;
+    width: 790px;
+  }
+  .conteudo-texto {
+    width: 361px;
+  }
+}
+

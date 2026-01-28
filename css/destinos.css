@@ -20,15 +20,14 @@
 }
 .itens h4 {
   margin: 24px 0;
-  font-size: 28px;
-  font-weight: var(--title-weight);
 }
 .itens p {
-  font-size: 20px;
   margin-bottom: 24px;
 }
 .itens footer {
-  padding: 15px;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
 }
 .itens a {
   text-align: center;
