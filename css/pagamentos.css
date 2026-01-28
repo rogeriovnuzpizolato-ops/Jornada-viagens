@@ -1,13 +1,17 @@
 .pagamentos {
   margin-top: 88px;
 }
+.pagamentos-container {
+  display: flex;
+  justify-content: space-between;
+}
 .conteudo-imagem {
   display: grid;
-  justify-content: center;
   grid-template-columns: repeat(2, 1fr);
   gap: 24px;
   margin-top: 24px;
   height: 460px;
+  width: 100%;
 }
 .large {
   grid-column: span 2;
@@ -24,25 +28,19 @@
   background: url(../img/pagamentos-foto-3.png) no-repeat bottom;
   background-size: cover;
 }
-@media screen and (min-width:1024px){
-  .pagamentos{
-    display: grid;
-    grid-template-columns: 200px 1fr;
-    grid-template-rows: auto 1fr auto;
-    grid-template-areas: "titulo titulo"
-    ".conteudo-texto "
-    "texto imagem";
-    gap: 24px;
-    row-gap: 15px;
+@media screen and (min-width: 1024px) {
+  .pagamentos.pagamentos-container {
+    justify-content: space-between;
   }
-  .section-title{
-    padding: 10px;
-    grid-area: titulo;
-  }
-  .conteudo-texto{
+  .conteudo-texto {
     grid-area: texto;
   }
-  .conteudo-imagem{
+  .conteudo-imagem {
     grid-area: imagem;
+    width: 790px;
+  }
+  .conteudo-texto {
+    width: 361px;
   }
 }
+
