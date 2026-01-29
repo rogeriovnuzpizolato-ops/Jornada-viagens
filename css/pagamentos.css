@@ -1,10 +1,6 @@
 .pagamentos {
   margin-top: 88px;
 }
-.pagamentos-container {
-  display: flex;
-  justify-content: space-between;
-}
 .conteudo-imagem {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
