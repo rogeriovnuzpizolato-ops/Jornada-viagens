@@ -24,24 +24,16 @@
   background: url(../img/pagamentos-foto-3.png) no-repeat bottom;
   background-size: cover;
 }
-@media screen and (min-width: 1024px) {
-  .pagamentos {
-    display: grid;
-    grid-template-columns: 200px 1fr;
-    grid-template-rows: auto 1fr auto;
-    grid-template-areas:
-      "titulo titulo"
-      ".conteudo-texto "
-      "texto imagem";
-    gap: 24px;
+@media screen and (min-width: 1440px) {
+  .pagamentos-container{
+    display: flex;
+    justify-content: space-between;
   }
-  .section-title {
-    grid-area: titulo;
+  .conteudo-texto{
+    width: 360px;
   }
-  .conteudo-texto {
-    grid-area: texto;
-  }
-  .conteudo-imagem {
-    grid-area: imagem;
+  .conteudo-imagem{
+    width: 790px;
+    margin: 0;
   }
 }
