@@ -1,13 +1,17 @@
 .pagamentos {
   margin-top: 88px;
 }
+.pagamentos-container {
+  display: flex;
+  justify-content: space-between;
+}
 .conteudo-imagem {
   display: grid;
-  justify-content: center;
   grid-template-columns: repeat(2, 1fr);
   gap: 24px;
   margin-top: 24px;
   height: 460px;
+  width: 100%;
 }
 .large {
   grid-column: span 2;
@@ -37,3 +41,4 @@
     margin: 0;
   }
 }
+
