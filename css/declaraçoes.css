@@ -16,7 +16,7 @@
 .perfil-container {
   margin: 8px 24px 0 0;
 }
-.perfil-container h4 {
+.perfil-container h3 {
   font-size: 20px;
   line-height: 32px;
   font-weight: var(--title-weigth);
