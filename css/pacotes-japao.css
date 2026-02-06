@@ -28,3 +28,6 @@
     color: var(--text-secondary-color);
     margin-bottom: 65px;
 }
+@media screen (min-width:768px){
+  
+}
