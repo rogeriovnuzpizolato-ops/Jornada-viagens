@@ -1,0 +1,56 @@
+.hero-pacotes {
+  width: 100%;
+}
+.banner-japao {
+  width: 100%;
+  height: 460px;
+  background: url(../img/japao-destino/bg-header-japao.png) no-repeat center;
+  background-size: cover;
+}
+.titulo-banner {
+  font-size: 48px;
+  color: var(--text-secondary-color);
+}
+.container-japao-hero hr {
+  margin: 16px auto 32px 0px;
+  background-color: var(--secondary-color);
+  width: 180px;
+  height: 4px;
+  border: none;
+}
+.container-japao-hero {
+  text-align: left;
+  padding: 65px 24px;
+}
+.container-japao-hero p {
+  font-size: 20px;
+  line-height: 32px;
+  color: var(--text-secondary-color);
+  margin-bottom: 65px;
+}
+@media screen and (min-width: 768px) {
+  .banner-japao {
+    height: 620px;
+  }
+   .container-japao-hero p {
+    width: 579px;
+    height: 192px;
+    font-size: 32px;
+    line-height: 150%;
+    margin-bottom: 158px;
+  }
+  .container-japao-hero{
+    padding: 209px 69px 107px 120px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .banner-japao {
+    background: url(../img/japao-destino/bg-japao-hero.png) no-repeat center;
+    background-size: cover;
+  }
+  .container-japao-hero {
+    width: 620px;
+    padding: 140px 0 0 120px;
+  }
+ 
+}

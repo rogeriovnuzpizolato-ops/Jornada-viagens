@@ -1,0 +1,60 @@
+.pagamentos-japao .container-textos .pagamentos-h2 {
+  color: var(--text-primary-color);
+  font-size: 40px;
+  font-weight: var(--title-weight);
+}
+.containeer-textos.pagamentos-h3 {
+  color: var(--text-primary-color);
+  font-size: 28px;
+  font-weight: var(--title-weight);
+}
+.containeer-textos.pagamentos-paragrafo {
+  color: var(--text-primary-color);
+  font-size: 20px;
+  line-height: 32px;
+  font-weight: var(--text-weight);
+}
+.container-imagens {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  margin-top: 24px;
+  height: 460px;
+  width: 100%;
+}
+.construçao {
+  background: url(../img/japao-destino/Montagem-japão1.png) no-repeat center;
+  background-size: cover;
+}
+.rua-e-placas {
+  background: url(../img/japao-destino/Montagem-japão2.png) no-repeat center;
+  background-size: cover;
+}
+.pessoa-guardachuva {
+  background: url(../img/japao-destino/Montagem-japão3.png) no-repeat center;
+  background-size: cover;
+}
+@media screen and (min-width: 1440px) {
+  .pagamentos-japao {
+    display: flex;
+    justify-content: space-between;
+  }
+  .container-textos {
+    width: 364px;
+  }
+  .pagamentos-h2 {
+    margin-top: 96px;
+  }
+  .pagamentos-h3 {
+    margin: 24px 0;
+  }
+  .pagamentos-paragrafo {
+    font-size: 20px;
+    width: 361px;
+    height: 128px;
+  }
+  .container-imagens {
+    width: 790px;
+    margin: 0;
+  }
+}
