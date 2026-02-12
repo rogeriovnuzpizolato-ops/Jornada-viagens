@@ -50,3 +50,29 @@
     padding: 104px 160px;
   }
 }
+/* css japão começa aqui */
+.blog-baner{
+  background: url(../img/pasta-blog/baner-blog-mobile.png) no-repeat center;
+  background-size: cover;
+}
+.container-blog-hero {
+  text-align: left;
+  padding: 65px 24px;
+}
+.titulo-banner {
+  font-size: 48px;
+  color: var(--text-secondary-color);
+}
+.container-blog-hero hr {
+  margin: 16px auto 32px 0px;
+  background-color: var(--secondary-color);
+  width: 180px;
+  height: 4px;
+  border: none;
+}
+.container-blog-hero p {
+  font-size: 20px;
+  line-height: 32px;
+  color: var(--text-secondary-color);
+  margin-bottom: 65px;
+}
