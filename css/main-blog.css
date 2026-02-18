@@ -1,0 +1,27 @@
+.main-blog-container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 0 24px;
+}
+.text-celula {
+  font-size: 20px;
+  line-height: 32px;
+  font-weight: var(--text-weigth);
+}
+.text-celula p {
+  margin-bottom: 24px;
+}
+.img-celula {
+  display: block;
+}
+.img-celula label {
+  width: 312px;
+  height: 28px;
+  font-size: 14px;
+}
+.loja-japao {
+  display: block;
+  width: 312px;
+  height: 360px;
+}
